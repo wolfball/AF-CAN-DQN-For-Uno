@@ -8,8 +8,11 @@ Members: Siyuan Li, Han Yan, Ziyuan Li, Zhesheng Xu
 ### Summary
 
 Based on RL and Game theory, we train an agent that can play Uno. (In game theory and multi-agent reinforcement learning)
+
 We propose two method to improve the performance of DQN. (It is not simple algorithm repetition and experimental comparison)
+
 Each member's contribution are listed at last in the Minipaper.
+
 The code is avaiable.
 
 ### Running commands
