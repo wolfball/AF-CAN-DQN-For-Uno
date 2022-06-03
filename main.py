@@ -52,7 +52,7 @@ def train(args):
             color_dim=args.color_dim,
             num_dim=args.num_dim,
         )
-    elif args.algorithm == 'aedqn':
+    elif args.algorithm == 'afdqn':
         from AFDQN import AFDQNAgent
         agent = AFDQNAgent(
             num_actions=env.num_actions,
@@ -124,8 +124,8 @@ if __name__ == '__main__':
     parser.add_argument('--num_eval_games', type=int, default=1000,)
     parser.add_argument('--evaluate_every', type=int, default=2000,)
     parser.add_argument('--color_dim', type=int, default=256, )
-    parser.add_argument('--num_dim', type=int, default=256, )
-    parser.add_argument('--lamb', type=float, default=1.0, )
+    parser.add_argument('--num_dim', type=int, default=128, )
+    parser.add_argument('--lamb', type=float, default=1.5, )
     parser.add_argument('--log_dir', type=str, default='experiments/uno_dqn_result/',)
 
     args = parser.parse_args()
