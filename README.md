@@ -4,6 +4,14 @@ SJTU 2021-2022 AI3617 Game Theory and Multi-Agent Learning Final Project
 
 Members: Siyuan Li, Han Yan, Ziyuan Li, Zhesheng Xu
 
+
+### Summary
+
+Based on RL and Game theory, we train an agent that can play Uno. (In game theory and multi-agent reinforcement learning)
+We propose two method to improve the performance of DQN. (It is not simple algorithm repetition and experimental comparison)
+Each member's contribution are listed at last in the Minipaper.
+The code is avaiable.
+
 ### Running commands
 
 ```bash
@@ -34,4 +42,5 @@ main.py
 --lamb 1.5  # the coeffecient of loss function when using afdqn
 --log_dir experiments/uno_dqn_result/  # path to save the logging and model
 ```
+
 
