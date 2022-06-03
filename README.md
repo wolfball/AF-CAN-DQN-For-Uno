@@ -44,6 +44,8 @@ main.py
 --num_dim 128  # the dimension of numberfeature when using candqn
 --lamb 1.5  # the coeffecient of loss function when using afdqn
 --log_dir experiments/uno_dqn_result/  # path to save the logging and model
+
+# evaluate.py and vis.py are used to analyse the experimental results.
 ```
 
 
